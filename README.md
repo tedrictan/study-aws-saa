@@ -1,4 +1,4 @@
-# SAA Study App
+# Solutions Architect Associate Study Coach
 
 A personal study app for the AWS Certified Solutions Architect – Associate (SAA-C03) exam.
 

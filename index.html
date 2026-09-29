@@ -3,21 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SAA Study App</title>
+<title>Solutions Architect Associate Study Coach</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="bg-blobs" aria-hidden="true"><span></span><span></span><span></span></div>
+  <header class="mobile-topbar">
+    <button class="hamburger-btn" id="hamburger-btn" aria-label="Open menu">☰</button>
+    <div class="mobile-topbar-title">Solutions Architect Associate</div>
+  </header>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
   <div class="layout">
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
       <div class="brand">
-        <svg class="aws-mark" viewBox="0 0 100 34" xmlns="http://www.w3.org/2000/svg" aria-label="AWS">
-          <text x="0" y="20" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#ffffff">aws</text>
-          <path d="M2 25 Q 50 39 87 23" fill="none" stroke="#FF9900" stroke-width="3.2" stroke-linecap="round"/>
-          <path d="M87 23 L 80 19 L 81 28 Z" fill="#FF9900"/>
-        </svg>
-        <div class="brand-name">SAA</div>
+        <div class="brand-badge">
+          <img class="aws-mark" src="assets/aws-logo.png" alt="AWS">
+        </div>
         <div class="brand-sub">Solutions Architect Associate</div>
-        <div class="brand-tag">Study App</div>
+        <div class="brand-tag">Study Coach</div>
       </div>
       <nav id="nav">
         <button data-route="dashboard" class="active">Dashboard</button>
