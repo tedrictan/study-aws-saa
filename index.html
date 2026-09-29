@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SAA Study App</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand">
+        <svg class="aws-mark" viewBox="0 0 100 34" xmlns="http://www.w3.org/2000/svg" aria-label="AWS">
+          <text x="0" y="20" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#ffffff">aws</text>
+          <path d="M2 25 Q 50 39 87 23" fill="none" stroke="#FF9900" stroke-width="3.2" stroke-linecap="round"/>
+          <path d="M87 23 L 80 19 L 81 28 Z" fill="#FF9900"/>
+        </svg>
+        <div class="brand-name">SAA</div>
+        <div class="brand-sub">Solutions Architect Associate</div>
+        <div class="brand-tag">Study App</div>
+      </div>
+      <nav id="nav">
+        <button data-route="dashboard" class="active">Dashboard</button>
+        <button data-route="lessons">Lessons</button>
+        <button data-route="practice">Practice</button>
+        <button data-route="mock">Exam Simulator</button>
+        <button data-route="review">Review (Spaced Repetition)</button>
+        <button data-route="flashcards">Flashcards</button>
+        <button data-route="plan">Study Plan</button>
+      </nav>
+      <div class="sidebar-footer">
+        <p>120 original practice questions (incl. multi-response) &middot; official domain weighting &middot; not real/leaked exam content</p>
+        <p>Unofficial study tool &middot; not affiliated with or endorsed by Amazon Web Services, Inc.</p>
+      </div>
+    </aside>
+    <main id="app-content"></main>
+  </div>
+
+  <script src="js/storage.js"></script>
+  <script src="js/questions.js"></script>
+  <script src="js/lessons.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
